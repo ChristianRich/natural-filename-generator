@@ -99,3 +99,6 @@ military_samoa_boom_porto-novo_2015_joyce-dewitt.jpg
 xl_san-marino_money_eddie-cleanhead-vinson.jpg  
 veronica-hamel_military_known_kigali.jpg  
 
+### My blog
+[http://chrisrich.io](http://chrisrich.io)
+
