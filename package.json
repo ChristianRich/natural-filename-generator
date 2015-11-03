@@ -1,18 +1,46 @@
 {
-  "name": "natural-name-generator",
+  "name": "natural-filename-generator",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "lodash": "^3.10.1",
     "moment": "^2.10.6"
   },
-  "devDependenciexes": {},
   "engines": {
     "node": ">=4.2.1",
     "npm": ">=2.14.7"
   },
   "main": "index.js",
+  "files": [
+    "index.js",
+    "/lib",
+    "/test"
+  ],
   "devDependencies": {
     "mocha": "^2.3.3"
-  }
+  },
+  "description": "Auto generates random file and folder names that look perfectly natural.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristianRich/natural-filename-generator.git"
+  },
+  "keywords": [
+    "generator",
+    "name generator",
+    "natural names",
+    "zipf",
+    "filename generator"
+  ],
+  "author": "Christian Rich <christianrich.me@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristianRich/natural-filename-generator/issues"
+  },
+  "homepage": "http://chrisrich.io"
 }

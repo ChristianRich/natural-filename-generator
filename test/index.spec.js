@@ -1,7 +1,7 @@
 var assert = require('assert')
     , NaturalNameGenerator = require('../lib/index');
 
-describe('Natural name generator', function() {
+describe('Natural filename generator', function() {
 
     var generator;
 
@@ -12,14 +12,20 @@ describe('Natural name generator', function() {
 
     describe('generate', function () {
 
-        it('should ...', function (done) {
+        it('should instantiate', function (done) {
+            assert(generator instanceof NaturalNameGenerator, 'Should be an instance');
+            done();
+        });
 
-            for(var i = 0; i < 1000; i++){
-                var res = generator.generate('jpg');
+        it('should generate 100 names', function (done) {
 
-                console.log(res)
+            var res = [];
+
+            for(var i = 0; i < 100; i++){
+                res.push(generator.generate('jpg'));
             }
 
+            assert(res.length === 100, 'Expect 100 results');
             done();
         });
     });
